@@ -102,6 +102,7 @@ class CategoryDishes {
   String dishDescription;
   bool dishAvailability;
   int dishType;
+  int count=0;
   String nexturl;
   List<AddonCat> addonCat;
 
@@ -115,6 +116,7 @@ class CategoryDishes {
       this.dishDescription,
       this.dishAvailability,
       this.dishType,
+      this.count=0,
       this.nexturl,
       this.addonCat});
 
